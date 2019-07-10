@@ -135,8 +135,7 @@ a:link, a:visited, a:hover, a:active {
   #título, #texto, #letras, .conceitos {
     padding: 7%;
   }
-  #letras {
-    /* padding-left: 0; */
+  #letras {    
     padding-bottom: 80px;
     max-width: 95%;
   }
