@@ -1,0 +1,120 @@
+nav {
+  background-color: #E64560;
+}
+nav .container, nav .container-fluid {
+  position: static;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Container logo+pular animação */
+nav .logo {
+  background-color: transparent;
+  position: relative;
+  height: 100%;
+}
+/* Botão Pular para Conteúdo Principal */
+nav .logo .pularNavegacao {
+  background-color: transparent;
+  color: #fff;
+  border: 1px dotted #fff;
+}
+/* Caixa do Logotipo */
+nav .logo img {
+  background-color: transparent;
+  width: 115px;
+  height: 65px;
+}
+
+/* Compartilhamento */
+nav .nav-link {
+  color: #fff;
+  background-color: transparent;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all .3s;
+}
+nav .nav-link:focus,
+nav .nav-link:hover {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+nav .nav-link[aria-expanded="true"] {
+  background-color: white;
+  color: #E64560;
+}
+.dropdown-menu {
+  min-width: 0;
+  background-color: transparent
+}
+.jssocials-share {
+  margin: 0.3rem 0;
+}
+.jssocials-share-link {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+
+/* Rodapé */
+footer .btn {
+  white-space: nowrap;
+}
+footer, footer .aval-rea .btn-secondary {
+  background-color: white;
+  color: #354551;
+}
+footer #regua-logos {
+  border-top: 1px solid lightgray;
+  padding: 2.5rem 15px 0 15px;
+  margin-top: 1.5rem;
+}
+footer #regua-logos a img {
+  width: auto;
+  margin-right: 3rem;
+  margin-bottom: 1.5rem;
+}
+footer #regua-logos a:last-child img {
+  margin-right: 15px;
+  margin-bottom: 1.5rem;
+}
+#creditos h6 {
+  text-transform: initial!important;
+}
+
+/* Main */
+main {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media only screen and (max-width: 575.98px) {
+  nav .logo img {
+    width: 100px;
+    height: 60px;
+  }
+  nav .nav-link {
+    margin-bottom: 7px;
+  }
+  footer #regua-logos a img {
+    margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+
+  main {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+}
