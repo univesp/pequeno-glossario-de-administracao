@@ -135,7 +135,7 @@ a:link, a:visited, a:hover, a:active {
   #título, #texto, #letras, .conceitos {
     padding: 7%;
   }
-  #letras {    
+  #letras {
     padding-bottom: 80px;
     max-width: 95%;
   }
@@ -151,8 +151,6 @@ a:link, a:visited, a:hover, a:active {
       font-weight: 600;
       color: #1c1c56;
       text-align: center;
+      line-height: normal;
     }
-
-
-
 }
